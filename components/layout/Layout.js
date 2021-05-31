@@ -5,9 +5,11 @@ function Layout(props) {
     const { children } = props;
 
     return (
+        // TODO: header
         <div className={styles.layoutContainer}>
             {children}
         </div>
+        // TODO: footer
     )
 }
 
